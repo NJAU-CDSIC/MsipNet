@@ -1,0 +1,2 @@
+Fold	Best ACC	Best PR	Best Recall	Best Specificity	Best MCC	Best F1-socre	Best AUC	Best AP
+5	0.7743	0.7274	0.4761	0.9155	0.4487	0.5755	0.8146	0.7082
