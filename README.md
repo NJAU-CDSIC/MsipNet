@@ -6,7 +6,7 @@ This is a directory for storing the **MsipNet** model code and data.**MsipNet** 
 
 The folders in the MsipNet repository:
 
--**Datasets**:
+- **Datasets**:
   a. **CLIP_seq**: 42 datasets collected from the ENCODE database and the POSTAR database.
   
   b. **RBP-24**:
@@ -17,9 +17,9 @@ The folders in the MsipNet repository:
     
    iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
 
--**MsipNet_code**:Main code file for the MsipNet model.
+- **MsipNet_code**:Main code file for the MsipNet model.
 
--**Scripts**:Contains code for motif discovery, sequence-only models, and models using predicted structural information:
+- **Scripts**:Contains code for motif discovery, sequence-only models, and models using predicted structural information:
 
   a. **Motif_discovery**: Code related to discovering motifs.
   
