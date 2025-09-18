@@ -1,0 +1,1 @@
+FASTA sequences of all RNA with or without Protein binding sites. "GraphProt_CLIP_sequences" folder contains negative and positives sequences for both Training and Testing sets.
