@@ -10,13 +10,13 @@ The folders in the MsipNet repository:
   
   a. **CLIP_seq**: 42 datasets collected from the ENCODE database and the POSTAR database.
   
-  - b. **RBP-24**:
-  
-     - i. **All_24**:All 24 datasets.
+  b. **RBP-24**:
+
+  &nbsp;&nbsp;i. **All_24**:All 24 datasets.
     
-     - ii. **Testing_set_8**:8 preprocessed testing datasets.
+  &nbsp;&nbsp;ii. **Testing_set_8**:8 preprocessed testing datasets.
     
-     - iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
+  &nbsp;&nbsp;iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
 
 - **MsipNet_code**:Main code file for the MsipNet model.
 
