@@ -1,1 +1,1 @@
-用于存放RNA-FM语言模型得到的结果
+Used to store the sequence features extracted by the RNA-FM language model.
