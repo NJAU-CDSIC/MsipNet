@@ -135,5 +135,5 @@ python main_seq.py --train_all
 Download the code:
 
 ```
-
+git clone https://github.com/NJAU-CDSIC/MsipNet.git
 ```
