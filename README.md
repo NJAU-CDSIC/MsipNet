@@ -12,11 +12,11 @@ The folders in the MsipNet repository:
   
   b. **RBP-24**:
   
-    i. **All_24**:All 24 datasets.
+     i. **All_24**:All 24 datasets.
     
-    ii. **Testing_set_8**:8 preprocessed testing datasets.
+     ii. **Testing_set_8**:8 preprocessed testing datasets.
     
-    iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
+     iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
 
 - **MsipNet_code**:Main code file for the MsipNet model.
 
