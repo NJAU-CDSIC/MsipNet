@@ -7,6 +7,7 @@ This is a directory for storing the **MsipNet** model code and data.**MsipNet** 
 The folders in the MsipNet repository:
 
 - **Datasets**:
+- 
   a. **CLIP_seq**: 42 datasets collected from the ENCODE database and the POSTAR database.
   
   b. **RBP-24**:
