@@ -65,3 +65,50 @@ See environment.yaml for details.Use the following command to install the runtim
 ```
 conda env create -f environment.yml
 ```
+
+## 2. Datasets
+
+Download the datasets from the following links:
+
+-  /Datasets/CLIP_seq:
+
+## 3. RNA-FM
+
+Download the RNA language model from the following link:
+
+- ​		/RNA-FM:  https://github.com/ml4bio/RNA-FM
+
+## 4. Training and Testing
+
+Before running the model code, make sure that the feature files extracted by RNA-FM are stored in /MsipNet_code/FM_embedding with the naming format filename.pt.
+
+- Training, using the RBM15_HepG2 dataset as an example:
+
+```
+python main.py --data_file RBM15_HepG2 --train
+```
+
+Before testing, ensure that all five model parameter files from the five-fold cross-validation are present in the /MsipNet_code/Model directory.
+
+- Testing:
+  
+```
+python main.py --data_file RBM15_HepG2 --validate
+```
+
+- Training all datasets:
+
+```
+python main.py --train_all
+```
+
+## 5. Motif Discovery
+
+The command to obtain the motifs for a dataset is as follows. Using RBM15_HepG2 as an example, run it in the /Scripts/Motif_discovery directory:
+
+```
+python motif.py --file_name RBM15_HepG2
+```
+
+## 5. Predicted Structure
+
