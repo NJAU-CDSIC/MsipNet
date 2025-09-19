@@ -112,6 +112,28 @@ python motif.py --file_name RBM15_HepG2
 
 ## 6. Predicted Structure
 
+The command for using predicted RNA secondary structure information is as follows. Using RBM15_HepG2 as an example, run it in the /Scripts/Predicted_struction directory with the prediction results from RNAfold:
+
+```
+python main_RNAfold.py --data_file RBM15_HepG2 --train
+python main_RNAfold.py --data_file RBM15_HepG2 --validate
+python main_RNAfold.py --train_all
+```
+
 ## 7. Sequence Only Model
 
+The command for training and testing the model using sequence information only is as follows. Using RBM15_HepG2 as an example, run it in the /Scripts/Sequence_only directory:
+
+```
+python main_seq.py --data_file RBM15_HepG2 --train
+python main_seq.py --data_file RBM15_HepG2 --validate
+python main_seq.py --train_all
+```
+
 ## 8. Installation
+
+Download the code:
+
+```
+
+```
