@@ -12,11 +12,11 @@ The folders in the MsipNet repository:
   
   b. **RBP-24**:
 
-  &nbsp;&nbsp;i. **All_24**:All 24 datasets.
+  &nbsp;&nbsp;&nbsp;&nbsp;i. **All_24**:All 24 datasets.
     
-  &nbsp;&nbsp;ii. **Testing_set_8**:8 preprocessed testing datasets.
+  &nbsp;&nbsp;&nbsp;&nbsp;ii. **Testing_set_8**:8 preprocessed testing datasets.
     
-  &nbsp;&nbsp;iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
+  &nbsp;&nbsp;&nbsp;&nbsp;iii. **Testing_set_8_structure**:Predicted structures obtained using RNAfold and RNAshapes.
 
 - **MsipNet_code**:Main code file for the MsipNet model.
 
@@ -47,3 +47,21 @@ The folders in the MsipNet repository:
   c. **Sequence_only**: Code related to using sequence information only.
 
 - **Supplementary Files**:The detailed results for all the analysis in our study.
+
+---
+
+
+
+### **Step-by-step Running:**
+
+## 1. Environment Installation
+
+It is recommended to use the conda environment (python 3.10), mainly installing the following dependencies:
+
+- [ ] ​		**pytorch(2.0.0)、pytorch-cuda(11.8)、scipy(1.10.1)、scikit-learn(1.2.2)、pandas(2.0.0)、shap(0.41.0)、numpy(1.23.5)**
+
+See environment.yaml for details.Use the following command to install the runtime environment.
+
+```
+conda env create -f environment.yml
+```
