@@ -60,7 +60,7 @@ It is recommended to use the conda environment (python 3.10), mainly installing 
 
 - [ ] ​		**pytorch(2.0.0)、pytorch-cuda(11.8)、scipy(1.10.1)、scikit-learn(1.2.2)、pandas(2.0.0)、shap(0.41.0)、numpy(1.23.5)**
 
-See environment.yaml for details.Use the following command to install the runtime environment.
+See environment.yaml for details. Use the following command to install the runtime environment.
 
 ```
 conda env create -f environment.yml
@@ -80,7 +80,7 @@ Download the RNA language model from the following link:
 
 ## 4. Training and Testing
 
-Before running the model code, make sure that the feature files extracted by RNA-FM are stored in /MsipNet_code/FM_embedding with the naming format filename.pt.
+Before running the model code, make sure that the feature files extracted by RNA-FM are stored in `/MsipNet_code/FM_embedding` with the naming format filename.pt.
 
 - Training, using the RBM15_HepG2 dataset as an example:
 
@@ -88,7 +88,7 @@ Before running the model code, make sure that the feature files extracted by RNA
 python main.py --data_file RBM15_HepG2 --train
 ```
 
-Before testing, ensure that all five model parameter files from the five-fold cross-validation are present in the /MsipNet_code/Model directory.
+Before testing, ensure that all five model parameter files from the five-fold cross-validation are present in the `/MsipNet_code/Model` directory.
 
 - Testing:
   
@@ -104,7 +104,7 @@ python main.py --train_all
 
 ## 5. Motif Discovery
 
-The command to obtain the motifs for a dataset is as follows. Using RBM15_HepG2 as an example, run it in the /Scripts/Motif_discovery directory:
+The command to obtain the motifs for a dataset is as follows. Using RBM15_HepG2 as an example, run it in the `/Scripts/Motif_discovery` directory:
 
 ```
 python motif.py --file_name RBM15_HepG2
@@ -112,7 +112,7 @@ python motif.py --file_name RBM15_HepG2
 
 ## 6. Predicted Structure
 
-The command for using predicted RNA secondary structure information is as follows. Using RBM15_HepG2 as an example, run it in the /Scripts/Predicted_struction directory with the prediction results from RNAfold:
+The command for using predicted RNA secondary structure information is as follows. Using RBM15_HepG2 as an example, run it in the `/Scripts/Predicted_struction` directory with the prediction results from RNAfold:
 
 ```
 python main_RNAfold.py --data_file RBM15_HepG2 --train
@@ -122,7 +122,7 @@ python main_RNAfold.py --train_all
 
 ## 7. Sequence Only Model
 
-The command for training and testing the model using sequence information only is as follows. Using RBM15_HepG2 as an example, run it in the /Scripts/Sequence_only directory:
+The command for training and testing the model using sequence information only is as follows. Using RBM15_HepG2 as an example, run it in the `/Scripts/Sequence_only` directory:
 
 ```
 python main_seq.py --data_file RBM15_HepG2 --train
