@@ -10,7 +10,7 @@ The folders in the MsipNet repository:
   
   a. **CLIP_seq**: 42 datasets collected from the ENCODE database and the POSTAR database.
   
-  b. **RBP-24**:
+  - b. **RBP-24**:
   
      - i. **All_24**:All 24 datasets.
     
