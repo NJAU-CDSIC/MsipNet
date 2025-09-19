@@ -110,5 +110,8 @@ The command to obtain the motifs for a dataset is as follows. Using RBM15_HepG2 
 python motif.py --file_name RBM15_HepG2
 ```
 
-## 5. Predicted Structure
+## 6. Predicted Structure
 
+## 7. Sequence Only Model
+
+## 8. Installation
