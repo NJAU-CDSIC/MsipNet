@@ -122,3 +122,5 @@ a - U + R\
 b - U + T
 
 ---
+
+The related files are stored at: https://github.com/kaitlin309/PRIESSTESS/tree/main/motifs.
