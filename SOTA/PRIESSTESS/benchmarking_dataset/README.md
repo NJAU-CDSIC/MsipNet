@@ -77,4 +77,4 @@ Similarly, `ENCFF002DHF_PRIESSTESS_ON_ENCFF871NYM_clip_scores.txt` contains 14,9
 
 `cat clip_data/ENCFF871NYM_positive_clip_set.txt clip_data/ENCFF871NYM_negative_clip_set.txt | paste ENCFF002DHF_PRIESSTESS_ON_ENCFF871NYM_clip_scores.txt -`
 
-
+The datasets are stored at: https://github.com/kaitlin309/PRIESSTESS/tree/main/benchmarking_dataset.
