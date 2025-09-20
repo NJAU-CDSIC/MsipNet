@@ -70,7 +70,7 @@ conda env create -f environment.yml
 
 Download the datasets from the following links:
 
--  /Datasets/CLIP_seq:
+-  /Datasets/CLIP_seq:https://figshare.com/articles/dataset/MsipNet_code_and_datasets/30171325
 
 ## 3. RNA-FM
 
