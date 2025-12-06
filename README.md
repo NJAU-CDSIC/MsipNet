@@ -38,6 +38,8 @@ The folders in the MsipNet repository:
   
   PIONet: https://github.com/moodyrashid/PIONet
 
+  PaPIR: https://github.com/ljquanlab/PaRPI
+
 - **Scripts**: Contains code for motif discovery, sequence-only models, and models using predicted structural information:
 
   a. **Motif_discovery**: Code related to discovering motifs.
