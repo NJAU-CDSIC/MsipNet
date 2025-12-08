@@ -11,10 +11,10 @@ from torch.utils.data import DataLoader
 import torch.utils.data
 import torch.optim as optim
 
-from Utils.train_loop import train, validate
-from Utils.utils import read_csv, myDataset, GradualWarmupScheduler, seq2mer
+from utils.train_loop import train, validate
+from utils.utils import read_csv, myDataset, GradualWarmupScheduler, seq2mer
 from sklearn.model_selection import KFold
-from Utils.MsipNet import MsipNet
+from utils.MsipNet import MsipNet
 
 def fix_seed(seed):
     """
@@ -541,4 +541,5 @@ if __name__ == '__main__':
     parser.add_argument('--early_stopping', type=int, default=20)
 
     args = parser.parse_args()
+
     main(args)
