@@ -1,1 +1,2 @@
-The benchmarking RBP-24 datasets were originally released by the GraphProt paper and can be downloaded from the following mirror URL: https://github.com/yaweiwang1232/EDCNN/tree/main/GraphProt_CLIP_sequences.
+The benchmarking RBP-24 datasets were originally released by the GraphProt paper and can be downloaded from the following mirror URL: 
+https://github.com/yaweiwang1232/EDCNN/tree/main/GraphProt_CLIP_sequences.
