@@ -8,7 +8,7 @@ The folders in the MsipNet repository:
 
 - **Datasets**:
   
-  a. **CLIP_seq**: 42 datasets collected from the ENCODE database and the POSTAR database.
+  a. **42 RBP datasets**: In total, 42 RBP datasets across 6 cell lines were selected from the PrismNet repository. Each dataset includes CLIP-seq data and icSHAPE data.
   
   b. **RBP-24**:
 
@@ -20,23 +20,29 @@ The folders in the MsipNet repository:
 
 - **MsipNet_code**: Main code file for the MsipNet model.
 
+- a. **Model**: Pretrained model weights for 42 RBP datasets.
+  
+  b. **main.py**: The code file of the MsipNet model.
+  
+  c. **deeplift.py**: The code file of deeplift for feature importance analysis.
+
 - **RNA-FM**: The RNA language model.
 
 - **SOTA**: Comparative methods used in the contrast experiments:
   
   iDeepE: https://github.com/xypan1232/iDeepE
+
+  PIONet: https://github.com/moodyrashid/PIONet
+
+  GraphProt: https://github.com/dmaticzka/GraphProt
   
   DeepCLIP: https://github.com/deepclip/deepclip
-  
-  GraphProt: https://github.com/dmaticzka/GraphProt
+
+  PRIESSTESS: https://github.com/kaitlin309/PRIESSTESS
   
   PrismNet: https://github.com/kuixu/PrismNet
   
-  PRIESSTESS: https://github.com/kaitlin309/PRIESSTESS
-  
   HDRNet: https://github.com/zhuhr213/HDRNet
-  
-  PIONet: https://github.com/moodyrashid/PIONet
 
   PaPIR: https://github.com/ljquanlab/PaRPI
 
