@@ -20,7 +20,7 @@ The folders in the MsipNet repository:
 
 - **MsipNet_code**: Main code file for the MsipNet model.
 
-- a. **Model**: Pretrained model weights for 42 RBP datasets.
+  a. **Model**: Pretrained model weights for 42 RBP datasets.
   
   b. **main.py**: The code file of the MsipNet model.
   
