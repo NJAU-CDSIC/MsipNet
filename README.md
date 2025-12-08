@@ -18,6 +18,8 @@ The folders in the MsipNet repository:
     
   &nbsp;&nbsp;&nbsp;&nbsp;iii. **Testing_set_8_structure**: Predicted structures obtained using RNAfold and RNAshapes.
 
+  c. **Data download**: https://doi.org/10.6084/m9.figshare.30186058
+
 - **MsipNet_code**: Main code file for the MsipNet model.
 
   a. **Model**: Pretrained model weights for 42 RBP datasets.
