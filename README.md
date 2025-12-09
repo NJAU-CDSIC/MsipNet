@@ -60,7 +60,7 @@ The folders in the MsipNet repository:
   
   c. **Sequence_only**: Code related to using sequence information only.
 
-- **Supplementary Files 1_R1**: The detailed results for all the analysis in our study.
+- **Supplementary Files 1**: The data underlying all figures and tables in this study are provided.
 
 ---
 
