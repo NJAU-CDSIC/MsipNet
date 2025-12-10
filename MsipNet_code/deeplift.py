@@ -2,10 +2,10 @@ import os
 import torch
 import argparse
 import numpy as np
-from Utils.utils import *
+from utils.utils import *
 from sklearn.model_selection import KFold
 from captum.attr import DeepLift
-from Utils.MsipNet import MsipNet
+from utils.MsipNet import MsipNet
 import matplotlib.pyplot as plt
 
 class TailModel(torch.nn.Module):
@@ -156,3 +156,4 @@ save_path = f"./Deeplift_result/{file_name}_concat_{num_folds}folds.png"
 plt.savefig(save_path, dpi=300)
 plt.close()
 print(f"Heatmap has been saved to {save_path}")
+
