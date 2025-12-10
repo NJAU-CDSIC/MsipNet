@@ -3,10 +3,10 @@ import torch
 import argparse
 import numpy as np
 import shap
-from Utils.utils import *
+from utils.utils import *
 import gc
 from sklearn.model_selection import KFold
-from Utils.MsipNet import MsipNet
+from utils.MsipNet import MsipNet
 
 parser = argparse.ArgumentParser(description="Process RNA file name")
 parser.add_argument('--file_name', type=str, required=True, help='Name of the RNA file without extension')
@@ -185,3 +185,4 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(samples)):
 
     print(f"Top 1000 k-mers have been saved to {output_path}")
     break
+
